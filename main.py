@@ -7,7 +7,7 @@ from pystyle import Colors, Colorate, Center
 #Have to add a logo that is hella overkill
 
 
-__author__ = 'K.Dot#0002' #ain't like people really care ngl lmao
+__author__ = 'K.Dot#0001' #ain't like people really care ngl lmao
 
 
 banner = Center.XCenter("""
@@ -17,7 +17,7 @@ banner = Center.XCenter("""
 ██║   ██║██║   ██║██║  ██║██╔══╝  ██╔══██║   ██║   ██╔══██║██╔══╝  ██╔══██╗
 ╚██████╔╝╚██████╔╝██████╔╝██║     ██║  ██║   ██║   ██║  ██║███████╗██║  ██║
  ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝     ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
- Made by K.Dot#0002\n\n
+ Made by K.Dot#0001 and Godfather\n\n
 """)
 
 def main():
@@ -48,14 +48,14 @@ def main():
             embed.add_field(name='IP', value=f'||{ip1}.{ip2}.{ip3}.{ip4}||')
             embed.add_field(name='ID', value=f'{id}')
             embed.add_field(name='Username', value=f'<@{id}>')
-            embed.add_field(name='Google Maps', value='''https://google.com/maps/place/@41.77778463166952,-87.61632612687927''') #O block hit dif
+            embed.add_field(name='Google Maps', value='''||https://google.com/maps/place/@41.77778463166952,-87.61632612687927||''') #O block hit dif
             embed.set_thumbnail(url='https://cdn.discordapp.com/attachments/991717642601779241/1002426761298055188/FEC9A975-BCA8-4B2A-95C5-13AF7C4823EE.jpg')
             embed.set_footer(text=__author__)
 
             hook.send(embed=embed)
 
             print("Sent Successfully!")
-            if __author__ != '\x4b\x2e\x44\x6f\x74\x23\x30\x30\x30\x32':
+            if __author__ != '\x4b\x2e\x44\x6f\x74\x23\x30\x30\x30\x31':
                 print("AN ERROR HAS OCCURED")
                 os._exit(0)
 if __name__ == '__main__':
